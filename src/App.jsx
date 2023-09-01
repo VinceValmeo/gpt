@@ -18,8 +18,6 @@ function App() {
           <Header />
         </div>
         <Brand />
-
-        <Brand />
         <WhatGPT3 />
         <Features />
         <Possibility />

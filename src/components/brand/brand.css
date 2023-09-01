@@ -1,0 +1,9 @@
+.brand-image {
+  text-align: center;
+}
+
+.brand-icon {
+  margin: 2rem 3rem;
+  max-width: 150px;
+  min-width: 120px;
+}
