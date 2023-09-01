@@ -16,14 +16,14 @@ function App() {
         <div className="gradient__bg">
           <Navbar />
           <Header />
+          <Brand />
+          <WhatGPT3 />
+          <Features />
+          <Possibility />
+          <CTA />
+          <Blog />
+          <Footer />
         </div>
-        <Brand />
-        <WhatGPT3 />
-        <Features />
-        <Possibility />
-        <CTA />
-        <Blog />
-        <Footer />
       </div>
     </>
   );
