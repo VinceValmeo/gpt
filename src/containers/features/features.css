@@ -19,3 +19,13 @@
   flex: 1;
   flex-direction: column;
 }
+
+@media screen and (max-width: 950px) {
+  .features__container {
+    flex-direction: column;
+  }
+  .features__title {
+    font-size: 15px;
+    line-height: 2.5rem;
+  }
+}
