@@ -1,3 +1,7 @@
+.brand__container {
+  justify-content: center;
+}
+
 .brand-image {
   text-align: center;
 }

@@ -6,7 +6,7 @@ function Possibility() {
   return (
     <div className="possibility__container">
       <div className="possibility__image">
-        <img src={possibility} />
+        <img src={possibility} alt="possibilities" />
       </div>
       <div className="possiblity__maintext">
         <h1 className="possibility__header gradient__text">
