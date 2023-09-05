@@ -1,0 +1,102 @@
+.CTA__container {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin: 3rem;
+}
+
+.CTA__text {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.CTA__attention {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CTA__attention h1 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.CTA__attention button {
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  border: 0;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 950px) {
+  .CTA__attention {
+    flex-direction: column;
+  }
+  .CTA__attention button {
+    margin-top: 2rem;
+  }
+  .CTA__parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CTA__parent h1 {
+    text-align: center;
+  }
+}
+
+.CTA__container {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(244, 152, 103, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(244, 152, 103, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(244, 152, 103, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F49867', endColorstr='#AE67FA', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(244, 152, 103, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(244, 152, 103, 1) 100%
+  );
+}
