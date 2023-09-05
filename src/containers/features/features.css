@@ -16,6 +16,6 @@
 
 .features__list {
   display: flex;
-  flex: 2;
+  flex: 1;
   flex-direction: column;
 }
