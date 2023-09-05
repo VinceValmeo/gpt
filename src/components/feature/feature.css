@@ -1,4 +1,30 @@
-.gradient__bar {
+.gpt3__features-container__feature {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
+
+  margin: 1rem;
+}
+
+.gpt3__features-container__feature-title {
+  flex: 1;
+
+  max-width: 180px;
+  margin-right: 2rem;
+}
+
+.gpt3__features-container__feature-title h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.gpt3__features-container__feature-title div {
   width: 38px;
   height: 3px;
   background: var(--gradient-bar);
@@ -6,27 +32,32 @@
   margin-bottom: 0.25rem;
 }
 
-.title {
+.gpt3__features-container_feature-text {
+  flex: 3;
+  max-width: 390px;
   display: flex;
-  flex: 1;
-  font-family: Manrope;
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 75px;
-  letter-spacing: -0.04em;
-  text-align: left;
-  color: white;
 }
 
-.text {
-  display: flex;
-  flex: 2;
-  font-family: Manrope;
-  font-size: 16px;
+.gpt3__features-container_feature-text p {
+  font-family: var(--font-family);
   font-weight: 500;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #81afdd;
-  margin-right: 2rem;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .gpt3__features-container_feature-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .gpt3__features-container__feature {
+    margin: 1rem 0;
+  }
 }

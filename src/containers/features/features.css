@@ -1,0 +1,21 @@
+.features__container {
+  padding: 2rem 4rem;
+  display: flex;
+}
+
+.features__title {
+  font-family: Manrope;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.features__list {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
