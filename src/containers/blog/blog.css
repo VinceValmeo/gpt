@@ -1,0 +1,38 @@
+.blog__container {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin: 2rem;
+}
+
+.blog__container__header {
+  font-family: Manrope;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: left;
+
+  margin-bottom: 3rem;
+}
+
+.article__container-groupA {
+  display: flex;
+  flex: 0.75;
+}
+
+.article__container-groupB {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+  .article__container {
+    flex-direction: column-reverse;
+  }
+
+  .article__container-groupA {
+    margin: 2rem 0;
+  }
+}
