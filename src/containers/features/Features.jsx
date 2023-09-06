@@ -23,7 +23,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <div className="features__container">
+    <div className="features__container" id="features">
       <div className="features__title gradient__text">
         <h1>
           The Future is Now and You Just Need To Realize It. Step into Future

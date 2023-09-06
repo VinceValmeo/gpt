@@ -87,8 +87,8 @@
 }
 
 .gpt3__header-content__people img {
-  width: 181.79px;
-  height: 38px;
+  width: 30%;
+  height: auto;
 }
 
 .gpt3__header-content__people p {
@@ -109,8 +109,8 @@
 }
 
 .gpt3__header-image img {
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 80%;
 }
 
 @media screen and (max-width: 1050px) {

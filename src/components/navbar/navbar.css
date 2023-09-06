@@ -43,10 +43,9 @@
   line-height: 25px;
   text-transform: capitalize;
 
-  margin: 0 2rem;
+  margin: 0 1rem;
   cursor: pointer;
 }
-
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
@@ -63,7 +62,7 @@
   margin-right: 20px;
 }
 
-gpt3__navbar-menu {
+.gpt3__navbar-menu {
   margin-left: 1rem;
 
   display: none;
@@ -127,7 +126,7 @@ gpt3__navbar-menu {
   }
 
   .gpt3__navbar-menu_container {
-    top: 45px;
+    top: 20px;
   }
 
   .gpt3__navbar-menu_container-links-sign {
