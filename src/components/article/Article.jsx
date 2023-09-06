@@ -5,7 +5,11 @@ function Article(props) {
   return (
     <div className="article__container">
       <div className="article__card">
-        <img src={props.image} className="article__img__header" />
+        <img
+          src={props.image}
+          className="article__img__header"
+          alt="blog_image"
+        />
         <div className="article__card__text">
           <p className="article__card__date">{props.date}</p>
           <h3 className="article__card__headline">{props.headline}</h3>
